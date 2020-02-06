@@ -8,8 +8,6 @@ if (num1 >= 84 || (num1 <= 48 ) ){
 else if(num2 >= 300 || (num2 <= 100)){
     return 'Weight ineligible to ride coaster'
 }
-else if(num1 <= 84 || (num1 >= 48 ) && (num2 <= 300 || num2 >= 100)){
-    return 'Height and Weight eligible'
-}
-else()
+
+else('') 
     return 'Go away'
